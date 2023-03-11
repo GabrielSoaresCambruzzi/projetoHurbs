@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family= Mochiy +Pop+One & display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .boxBotao{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#logo{
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#boxBotao{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+
+#botaoEntrar{
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+  border: 2px solid #f31050;
+  border-radius: 9px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.novosBotoes{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  display: none;
+}
+
+#botaoEntrarNovo{
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+  border: 2px solid #f31050;
+  border-radius: 9px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+
+
+}
+
+#botaoEntrar:hover{
+  border-color: white;
+  color: #f31050;
+}
+
+#botaoEntrarNovo:hover{
+  border-color: white;
+  color: #f31050;
+}
+
+#botaoCadastrar{
+  width: 150px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 9px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  font-size: 16px;
+}
+
+#botaoCadastrarNovo{
+  width: 150px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 9px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  font-size: 16px;
+}
+
+#botaoCadastrar:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid #f31050;
+}
+
+#botaoCadastrarNovo:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid #f31050;
+}
+
+
+#bemVindo{
+  margin-left: 30px;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  margin-top: 100px;
+  font-family: 'Mochiy Pop One';
+  
+}
+
+h1 img {
+  width: 320px;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 831px) {
+  #boxBotao{
+    margin-right: 15px;
+    margin-top: 19px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  h1 img{
+    width: 230;
+  }
+
+}
+
+@media screen and (max-width: 567px) {
+  #boxBotao{
+    display: none;
+}
+
+ #logo{
+  margin: auto;
+ }
+
+ #bemVindo {
+  text-align: center;
+  margin: auto;
+ }
+
+.novosBotoes{
+  display: flex;
+}
+
+  }
+
+@media screen and (max-width: 394px) {
+  h1{
+    text-align: center;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 354px) {
+  h1 {
+    font-size: 40px;
+  }
+  h1 img {
+    width: 240px;
+  }
+}
+
