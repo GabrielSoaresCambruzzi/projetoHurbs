@@ -138,9 +138,171 @@ padding: 3px 0px 3px 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+@media screen and (min-width: 1482px){
+    .texto{
+        width: 600px;
+    }
+
+    .formulario{
+        height: 350px;
+    }
+
+    #campoFormularioNome{
+        height: 42px;
+        font-size: 18px;
+    }
+    #campoFormularioEmail{
+        height: 42px;
+        font-size: 18px;
+    }
+    #campoFormularioSenha{
+        height: 42px;
+        font-size: 18px;
+    }
+    #campoFormularioConfirmarSenha{
+        height: 42px;
+        font-size: 18px;
+    }
+    #botaoCadastrar{
+        height: 43px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 2479px){
+    .texto{
+        width: 800px;
+    }
+
+    .formulario{
+        height: 350px;
+    }
+
+    #campoFormularioNome{
+        height: 40px;
+        font-size: 18px;
+    }
+    #campoFormularioEmail{
+        height: 40px;
+        font-size: 18px;
+    }
+    #campoFormularioSenha{
+        height: 40px;
+        font-size: 18px;
+    }
+    #campoFormularioConfirmarSenha{
+        height: 40px;
+        font-size: 18px;
+    }
+    #botaoCadastrar{
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 3436px){
+    .texto{
+        width: 1100px;
+    }
+
+    .formulario{
+        height: 460px;
+    }
+
+    #campoFormularioNome{
+        height: 50px;
+        font-size: 20px;
+    }
+    #campoFormularioEmail{
+        height: 50px;
+        font-size: 20px;
+    }
+    #campoFormularioSenha{
+        height: 50px;
+        font-size: 20px;
+    }
+    #campoFormularioConfirmarSenha{
+        height: 50px;
+        font-size: 20px;
+    }
+    #botaoCadastrar{
+        height: 55px;
+        font-size: 20px;
+        margin: auto;
+    }
+
+}
+
 @media screen and (max-width: 898px){
     form{
         padding: 30px 10px 30px 0px;
         margin-left: 0px;
     }
+}
+
+@media screen and (max-width: 883px){
+    #secao{
+        flex-direction: column;
+    }
+    .texto{
+        order: -1;
+        margin: auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .texto > img{
+        width: 376px;
+        justify-content: center;
+        margin: auto;
+    }
+    .formulario{
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1d24;
+        box-shadow: 0 1px 15px 3px rgba(0,0,0,.6);
+        width: 390px;
+        padding: 40px; 
+        color: white;
+        border: 0px solid #f2105091;
+        border-radius: 8px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 486px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1d24;
+        box-shadow: 0 1px 15px 3px rgba(0,0,0,.6);
+        width: 290px;
+        padding: 40px; 
+        color: white;
+        border: 0px solid #f2105091;
+        border-radius: 8px;
+        justify-content: center;
+    }  
+}
+
+@media screen and (max-width: 391px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1d24;
+        box-shadow: 0 1px 15px 3px rgba(0,0,0,.6);
+        width: 250px;
+        padding: 40px; 
+        color: white;
+        border: 0px solid #f2105091;
+        border-radius: 8px;
+        justify-content: center;
+    }  
+
 }
