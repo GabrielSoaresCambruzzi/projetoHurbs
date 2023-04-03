@@ -23,6 +23,17 @@ header .boxBotao{
   margin-right: 20px;
 }
 
+#link2{
+  text-decoration: none;
+  color: #f31050;
+}
+
+#link1{
+  text-decoration: none;
+  color: white;
+}
+
+
 #logo{
   width: 200px;
   padding-top: 20px;
