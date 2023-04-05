@@ -16,6 +16,8 @@ header{
   -ms-flex-align: center;
   justify-content: space-between;
   align-items: center;
+  background-color: #101114;
+  padding-bottom: 15px;
 }
 
 header .boxBotao{
